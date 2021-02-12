@@ -5,9 +5,8 @@
 // Desc: Counts down a nice soothing sleep color from brighter to
 //       darker as each light dissapears
 
-// Ideas: Could possibly make this universal so that it can run
-//        alongside any light pattern so that the pattern is slowly
-//        losing its leds
+// USER: User must change the DELAY parameter to one of the following
+//       numbers for desired transition time
 
 
 #include <FastLED.h>
@@ -42,43 +41,18 @@ bool check_off() {
   return true;
 }
 
-//void fade_to_black(int index, int r,int g,int b) {
-//  for(int i = 0; i < 255; i++) {
-//    leds[index] = CRGB(r-i,g-i,b-i);
-//    if (r <= 0) {
-//      r = 0;
-//    }
-//    if (g <= 0) {
-//      g = 0;
-//    }
-//    if (b <= 0) {
-//      b = 0;
-//    }
-//    FastLED.show();
-//  }
-//}
-
 void setup() {
   FastLED.addLeds<WS2812, 2, GRB>(leds,876);
   FastLED.setBrightness(BRIGHTNESS);
   
   fill_solid(leds, NUM_LEDS, CRGB(60,20,4));  
-//  int one = R;
-//  int two = G;
-//  int three = B;     
+  
   for (int i = 0; check_off() == false; i++) {
     int random_led = random16(0, NUM_LEDS);
     if (leds[random_led] != CRGB(0,0,0)) {
-      leds[random_led] = CRGB(0,0,0); // eventually make this fade
-                                            // fade maybe
-//      fade_to_black(random_led, 60,20,4);
-      FastLED.delay(DELAY); //   takes ~4 mins @ 250
+      leds[random_led] = CRGB(0,0,0);
+      FastLED.delay(DELAY);
     }
-
-  // new stuff **
-//  for (int i = 0; i < NUM_LEDS; i++) {
-//    leds[i] = CRGB(one
-//  }
   FastLED.show();
   }
 
@@ -87,14 +61,4 @@ void setup() {
 }
 
 void loop() {
-//  fill_solid(leds, NUM_LEDS, CRGB(60,20,4));       
-//  for (int i = 0; i < 10000; i++) {
-//    int random_led = random16(0, NUM_LEDS);
-//    if (leds[random_led] != CRGB(0,0,0)) {
-//      leds[random_led] = CRGB(0,0,0); // eventually make this fade
-//                                            // fade
-//      FastLED.show();
-//    }
-//
-//  }
 }
