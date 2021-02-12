@@ -2,8 +2,13 @@
 #include <pixeltypes.h>
 
 // Shooting Stars
+// Desc: Simulating a shooting star, featuring the star and its trail.
+//       The trail size, amount of shooting stars, and speed of movement
+//       can be customized using the #define parameters
 // Tanner Gordon
 // December 17, 2020
+
+// note: this code features some testing, please ignore :)
 
 #if FASTLED_VERSION < 3001000
 #error "Requires FastLED 3.1 or later; check github for latest code."
@@ -21,7 +26,7 @@
 
 //#define SPEED 60 // slow
 //#define SPEED 20 // faster
-//#define SPEED 10 // really fucking fast
+//#define SPEED 10 // really  fast
 #define SPEED 7 // a nice in between
 //#define SPEED 5 // gtfo //  requires 20 for LENGTH_OF_BLACK
 //#define SPEED 2 // god mode // requires 30
@@ -115,15 +120,6 @@ void trail(unsigned long s)
       leds[t] = CHSV(150,90 +i*3,random_off_range(170 - i*2, 10));
     }
 
-//    leds[t] = CHSV(0,i*5,250 - i*5); // 0 red
-//    if (i > 0) {
-//      leds[t] = CHSV(0,i*5,170 - i*3); // 0 red
-//    }
-    
-//    leds[t] = CHSV(0,i*5,250 - i*5); // 0 red
-
-
-     ////// black ////
 
   }
 }
