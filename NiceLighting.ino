@@ -2,7 +2,10 @@
 // Tanner Gordon
 // 11/3/20
 
-// Desc: a nice vibe that simulates regular lights
+// Desc: a nice vibe that simulates regular lights\
+//       2 settings: lowlight or bright
+//                      - can be changed by changing 
+//                        LOWLIGHT to true/false
 
 
 #include <FastLED.h>
