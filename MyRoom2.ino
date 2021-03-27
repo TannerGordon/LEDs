@@ -1,3 +1,8 @@
+// Custom Room Design
+// creates corners at each corner point in my room
+// corners are a moving rainbow, extending from the middle->out
+// randomly, there is a small chance that a color will 'shoot out' 
+// from the corner and travel to the next corner
 
 #include <FastLED.h>
 
