@@ -2,7 +2,23 @@
 
 #define NUM_LEDS    876
 #define DATA_PIN    2
-#define 
+#define LED_TYPE    WS2812B
+#define COLOR_ORDER GRB
+#define NUM_LEDS    876
+//#define BRIGHTNESS  60 // low light
+#define BRIGHTNESS 120
+
+#define MOVEMENT true
+
+bool reverse = false;
+
+
+CRGB leds[NUM_LEDS];
+//CRGBArray<NUM_LEDS> leds;
+
+
+void setup() {
+//  delay(3000); // 3 second delay for recovery
   // tell FastLED about the LED strip configuration
   FastLED.addLeds<LED_TYPE,DATA_PIN,COLOR_ORDER>(leds, NUM_LEDS)
     .setCorrection(TypicalLEDStrip)
