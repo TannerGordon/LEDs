@@ -21,10 +21,6 @@
 </h4>
 
 
-
-
-
-
 ## Countdown
 <h1 align="center">
 <a href="https://youtu.be/Vhvcp_dgue4"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_countdown.jpg" alt="Countdown" width="500"></a>
