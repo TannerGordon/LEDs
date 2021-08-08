@@ -23,7 +23,7 @@
 
 ## Countdown
 <h1 align="center">
-<a href="https://youtu.be/Vhvcp_dgue4"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_countdown.jpg" alt="Countdown" width="500">
+<a href="https://youtu.be/Vhvcp_dgue4"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_countdown.jpg" alt="Countdown" width="500"</a>
 <h3 align="center">
   I used this program every night before I fell asleep. I would set a time (ex. 30 minutes), and it would take that amount of time for all of the lights to turn off. The program begins with a low-light sunset look, and each led randomly turns off 1 by 1. By the time the timer is up, all of the LEDs have turned off. This program has greatly helped me fall asleep at night, providing a great transition from a waking to a sleeping state!
   <br>
@@ -31,7 +31,6 @@
   </h3>
   <br>
   <br>
-  </a>
 </h1>
 
 ## Corner to Corner
@@ -42,4 +41,14 @@
 ## Shooting Stars
 <h1 align="center">
 <a href="https://youtu.be/L6BNnQoZWgA"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_stars.jpg" alt="Shooting Stars" width="500"></a>
+</h1>
+
+  ## Colored Posters
+<h1 align="center">
+<a href="https://youtu.be/Efr0K40B-7w"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_colored_posters.jpg" alt="Colored Posters" width="500"></a>
+</h1>
+  
+    ## Colored Walls
+<h1 align="center">
+<a href="https://youtu.be/nBDv61q1Sjc"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_colored_walls.jpg" alt="Colored Walls" width="500"></a>
 </h1>
