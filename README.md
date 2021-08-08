@@ -32,5 +32,7 @@
 ## Countdown
 <h1 align="center">
 <a href="https://youtu.be/Vhvcp_dgue4"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_corner.jpg" alt="Countdown" width="500"></a>
-  I used this program every night before I fell asleep. I would set a time (ex. 30 minutes), and it would take that amount of time for all of the lights to turn off. The lights begin with a low-light sunset look, and they randomly turn off 1 by 1. By the time the timer is up, all of the LEDs have turned off. This program has greatly helped me fall asleep at night, providing a great transition from a waking to a sleeping state!
+<h3 align="center">
+  I used this program every night before I fell asleep. I would set a time (ex. 30 minutes), and it would take that amount of time for all of the lights to turn off. The program begins with a low-light sunset look, and each led randomly turns off 1 by 1. By the time the timer is up, all of the LEDs have turned off. This program has greatly helped me fall asleep at night, providing a great transition from a waking to a sleeping state!
+  </h3>
 </h1>
