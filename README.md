@@ -1,4 +1,4 @@
-# LEDs
+# Custom LEDs by Tanner Gordon
 
 Click on the link below to see YouTube videos for each program!
 
