@@ -10,6 +10,8 @@
 <br>
 <br>
 Inspiration for this project came from moving into my off-campus house and realizing that my room did not have any lights. Rather than buying a lamp, I began this project to apply what I've learned at Tufts to the real world, thus enhancing my ability to self-educate, think outside-the-box, and expand my knowledge of computer science.
+<br>
+Click on any picture to bring you to the corrosponding video!
 </h4>
 
 <p align="center">
