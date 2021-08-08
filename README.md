@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="#Countdown">Countdown</a> |
-  <a href="#Corner to Corner">Corner to Corner</a> |
+  <a href="#Corner-to-Corner">Corner to Corner</a> |
     <a href="#Shooting Stars">Shooting Stars</a> |
     <a href="#Colored Posters">Colored Posters</a> |
     <a href="#Colored Walls">Colored Walls</a> |
