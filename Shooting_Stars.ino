@@ -81,7 +81,6 @@ void test()
   if (s >= NUM_LEDS) {
     s = s % NUM_LEDS - 1;
   }
-//  Serial.println(s, DEC);
 //  leds[s] = CHSV(0,0,100);
 //  trail(s);
 fill_solid(leds, NUM_LEDS, CRGB(0,0,0));
@@ -97,24 +96,18 @@ void trail(unsigned long s)
     t = (int)s - i;
     if (t < 0) {
       t = t + NUM_LEDS;
-//      Serial.print("t: ");
-//      Serial.println(t);
     }
 
     //set
 //    leds[t] = CHSV(0,i*5,250); // 150 blue, 250 - i*5
     if (i == 0) {
-//      Serial.println("eye = 0");
       leds[t] = CHSV(150,i*5,250);
     }
-//    Serial.println("1");
     if (i > 0 and i < 15) {
       leds[t] = CHSV(150,90 +i*3,(170 - i*2)); // i * 5, 170  - i*3
-//      Serial.println("2");
     }
     if (i >= 15 and i < 40) { // 27
       leds[t] = CHSV(150,90 +i*3,random_off(170 - i*2));
-//      Serial.println("3");
     }
     if (i >= 40) {
       leds[t] = CHSV(150,90 +i*3,random_off_range(170 - i*2, 10));
