@@ -14,14 +14,12 @@
 #define COLOR_ORDER GRB
 #define NUM_LEDS    876
 //#define BRIGHTNESS  60 // low light
-#define BRIGHTNESS 120
+#define BRIGHTNESS 120 // regular light
 
 #define MOVEMENT true
 
 
 CRGB leds[NUM_LEDS];
-//CRGBArray<NUM_LEDS> leds;
-
 
 void setup() {
 //  delay(3000); // 3 second delay for recovery
@@ -162,8 +160,3 @@ void wall5(int s)
     leds[i] = CHSV(i/2 + s, 255, BRIGHTNESS);
   } 
 }
-
-// other functions - unused
-
-//  static uint8_t hue=0;  //define hue variable
-//  leds.fill_rainbow(hue++);
