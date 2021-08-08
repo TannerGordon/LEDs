@@ -19,14 +19,14 @@ CRGB leds[876];
 #define G 20
 #define B 4
 
-////      FastLED.delay(100); // takes ~2 mins @ 100
-//      FastLED.delay(250); //   takes ~4 mins @ 250
-////      FastLED.delay(400);//         7-9 mins @ 300
-////        FastLED.delay(1500);
-////      FastLED.delay(3000);
+//      FastLED.delay(100);  // takes ~2 mins  @ 100
+//      FastLED.delay(250);  // takes ~4 mins  @ 250
+//      FastLED.delay(400);  // takes 7-9 mins @ 300
+//      FastLED.delay(1500); // takes 15 mins  @ 1500
+//      FastLED.delay(3000); // takes 30 mins  @ 3000
 
 #define DELAY 100
-
+// change this ^^^^ //
 
 bool check_off() {
   bool check = true;
