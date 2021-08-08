@@ -46,12 +46,12 @@
 <a href="https://youtu.be/L6BNnQoZWgA"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_stars.jpg" alt="Shooting Stars" width="500"></a>
 </h1>
 
-  ## Colored Posters
+## Colored Posters
 <h1 align="center">
 <a href="https://youtu.be/Efr0K40B-7w"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_colored_posters.jpg" alt="Colored Posters" width="500"></a>
 </h1>
   
-    ## Colored Walls
+## Colored Walls
 <h1 align="center">
 <a href="https://youtu.be/nBDv61q1Sjc"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_colored_walls.jpg" alt="Colored Walls" width="500"></a>
 </h1>
