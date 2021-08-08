@@ -15,9 +15,9 @@
 <p align="center">
   <a href="#Countdown">Countdown</a> |
   <a href="#Corner-to-Corner">Corner to Corner</a> |
-    <a href="#Shooting Stars">Shooting Stars</a> |
-    <a href="#Colored Posters">Colored Posters</a> |
-    <a href="#Colored Walls">Colored Walls</a> |
+    <a href="#Shooting-Stars">Shooting Stars</a> |
+    <a href="#Colored-Posters">Colored Posters</a> |
+    <a href="#Colored-Walls">Colored Walls</a> |
 </p>
 
 <h4 align="center">Click on any image to bring you to the corresponding video!
