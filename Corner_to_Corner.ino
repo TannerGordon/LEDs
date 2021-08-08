@@ -42,18 +42,7 @@ void loop() {
   int num = millis() / 100;
   int corner_num = millis() / 100;
 
-//  Serial.println(num);
 
-//  if (num % 2 == 0) {
-//    travel(19, 15, 400); 
-//  }
-
-
-    // for travel, make a struc that has the position and color and everytime it loops
-    // we just incresae the pos by 1 and once it hits the end it deletes
-
-//  slow_rainbow(num);
-//  blue_white(num);
   corner(corner_num, CORNER1); 
   corner(corner_num, CORNER2);
   corner(corner_num, CORNER3);
@@ -61,9 +50,7 @@ void loop() {
   corner(corner_num, CORNER5);
   corner(corner_num, CORNER6);
 
-  if (num == 5) {
-//    leds[18] = CRGB::Yellow;
-  }
+
 
     travel(CORNER_LENGTH, CORNER_LENGTH - 1, CORNER2 + 1 - CORNER_LENGTH); 
     travel(CORNER_LENGTH + CORNER2, CORNER_LENGTH - 1 + CORNER2, CORNER3 + 1 - CORNER_LENGTH); 
@@ -72,15 +59,13 @@ void loop() {
     travel(CORNER_LENGTH + CORNER5, CORNER_LENGTH - 1 + CORNER5, CORNER6 + 1 - CORNER_LENGTH); 
     travel(CORNER_LENGTH + CORNER6, CORNER_LENGTH - 1 + CORNER6, 877 - CORNER_LENGTH); 
 
-//  CRGB x = leds[400];
-//  leds[0] = x;
+
   FastLED.show();
 
 }
 
  void travel(int start, int color, int arr_end) {
   if (random(100) < RISK) {
-//    Serial.println(leds[start].r);
     leds[start] = leds[color];
   }
   if (leds[start].r != 0 and leds[start + 1].r != 0) {
@@ -100,17 +85,6 @@ void loop() {
  }
 
 
-
-void blue_white(int s) {
-//  for (float i = 0; i < NUM_LEDS; i++) {
-//    leds[int(i)] = CHSV(150, (int(sin(0.05 * s)) * 100 + 145, BRIGHTNESS);
-//  }
-//  for (int i = 0; i < NUM_LEDS; i++) {
-//    if (i % NUM_TO_REVERSE < NUM_TO_REVERSE / 2) {
-//      leds[i] = CHSV(i / 30 + s, 255, BRIGHTNESS); // Hue: i / 30 + s
-//    }
-//  }
-}
 
 // creates slow rainbow for entire led strip
 void slow_rainbow(int s) {
