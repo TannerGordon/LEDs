@@ -38,7 +38,6 @@
 
 ## Corner to Corner
 <h1 align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8u9qjFJ5u4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <a href="https://youtu.be/8u9qjFJ5u4U"><img src="https://github.com/TannerGordon/LEDs/blob/main/images/leds_corner.jpg" alt="Corner to Corner" width="500"></a>
 </h1>
 
